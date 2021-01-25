@@ -48,22 +48,16 @@ https://github.com/philipwalton/solved-by-flexbox
     order: -1;
 }
 
-.HolyGrail-nav, .HolyGrail-ads {
+.HolyGrail-nav {
     padding: 1em;
     border-radius: 3px;
     background: rgba(147, 128, 108, 0.1);
 }
 
-@media (min-width: 768px) {
-    .HolyGrail-body {
-        flex-direction: row;
-    }
-    .HolyGrail-content {
-        flex: 1;
-        padding: 0 var(--space-lg);
-        margin: 0;
-    }
-    .HolyGrail-nav, .HolyGrail-ads {
-        flex: 0 0 12em;
-    }
-}
+/* Mobile Layout */
+
+@media (max-width: 500px) {}
+
+/* Ultra-wide Layout */
+
+@media (min-width: 1920px) {}

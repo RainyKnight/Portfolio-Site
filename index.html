@@ -25,30 +25,30 @@
     <h1>Portfolio Site</h1>
   </header>
   <div class="HolyGrail-body">
-    <main id="main-doc" class="HolyGrail-content Site-content">
-      <section id="welcome-section" class="main-section">
+    <main class="HolyGrail-content Site-content" id="main-doc">
+      <section class="main-section" id="welcome-section">
         <header>
           <h1>Welcome to my site!</h1>
         </header>
       </section>
-      <section id="projects" class="main-section">
+      <section class="main-section" id="projects">
         <header>projects</header>
-        <div id="tribute_page" class="project-tile">
+        <div class="project-tile" id="tribute_page">
           <!-- Project preview -->
 
           <a href="https://codepen.io/RainyKnight/pen/yLaKqPz" target="_block">Tribute Page</a>
         </div>
-        <div id="survey_form" class="project-tile">
+        <div class="project-tile" id="survey_form">
           <!-- Project preview -->
 
           <a href="https://codepen.io/RainyKnight/pen/MWjZaMM" target="_block">Survey Form</a>
         </div>
-        <div id="landing_page" class="project-tile">
+        <div class="project-tile" id="landing_page">
           <!-- Project preview -->
 
           <a href="https://codepen.io/RainyKnight/pen/PoGvrPx" target="_block">Landing Page</a>
         </div>
-        <div id="js_documentation" class="project-tile">
+        <div class="project-tile" id="js_documentation">
           <!-- Project preview -->
 
           <a href="https://codepen.io/RainyKnight/pen/JjRQNqb" target="_block">JS Documentation</a>
@@ -57,7 +57,7 @@
         <div class="project-tile"></div>
         <div class="project-tile"></div>
       </section>
-      <section id="about_me" class="main-section">
+      <section class="main-section" id="about_me">
         <header>about me</header>
       </section>
       <section class="main-section">
@@ -84,9 +84,28 @@
       <button type="button" class="btn btn-primary" onclick="runCode()">Click Me</button>
     </main>
 
-    <nav id="navbar" class="HolyGrail-nav">
-      <!-- navbar stuff goes here -->
-
+    <!-- bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light HolyGrail-nav" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <aside class="HolyGrail-ads">
