@@ -20,7 +20,7 @@
   <title>Portfolio Site</title>
 </head>
 
-<body class="HolyGrail Site">
+<body class="HolyGrail Site" id="home_link">
   <header>
     <h1>Portfolio Site</h1>
   </header>
@@ -37,11 +37,17 @@
           <!-- Project preview -->
 
           <a href="https://codepen.io/RainyKnight/pen/yLaKqPz" target="_block">Tribute Page</a>
+
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
         </div>
         <div class="project-tile" id="survey_form">
           <!-- Project preview -->
 
           <a href="https://codepen.io/RainyKnight/pen/MWjZaMM" target="_block">Survey Form</a>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
         </div>
         <div class="project-tile" id="landing_page">
           <!-- Project preview -->
@@ -84,10 +90,10 @@
       <button type="button" class="btn btn-primary" onclick="runCode()">Click Me</button>
     </main>
 
-    <!-- bootstrap -->
+    <!-- Bootstrap navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light HolyGrail-nav" id="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="index.html">Lucas Stoltman</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -95,10 +101,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home_link">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
@@ -157,7 +166,7 @@
 
 * 
 
-* 
+* (optional) Light/Dark mode
 
 -->
 

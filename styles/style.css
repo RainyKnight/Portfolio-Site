@@ -16,10 +16,23 @@ section {
     /*  */
 }
 
+.project-tile {
+     /* temporary */
+     padding: 1rem;
+     margin: 1rem;
+     box-shadow: var(--default-shadow);
+     /*  */
+    
+}
+
 header {
     text-align: center;
     text-transform: capitalize;
+    font-size: 24pt;
 }
+
+h1 {
+font-weight: 900;}
 
 footer {
     text-align: center;
