@@ -2,9 +2,11 @@
     /* Color Palette*/
     --white: white;
     --black: black;
+    --dark: rgb(4, 5, 32);
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
+    --default-radius: 10px;
     /*  */
 }
 
@@ -19,17 +21,21 @@ section {}
 .project-tile {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--white);
     
     /* temporary */
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem;
+    border-radius: var(--default-radius);
     box-shadow: var(--default-shadow);
     /*  */
 }
 
 .project-img {
     max-width: 500px;
-
+    pointer-events: none;
 }
 
 img {
