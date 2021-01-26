@@ -2,7 +2,6 @@
     /* Color Palette*/
     --white: white;
     --black: black;
-    --dark: rgb(4, 5, 32);
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
@@ -10,52 +9,14 @@
     /*  */
 }
 
+main {
+    margin-top: 56px;
+}
+
 section {}
 
-.project-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: red;
-}
-
-.project-tile {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--dark);
-    color: var(--white);
-    /* temporary */
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: var(--default-radius);
-    box-shadow: var(--default-shadow);
-    /*  */
-}
-
-.project-img {
-    max-width: 500px;
-    pointer-events: none;
-    border-radius: var(--default-radius);
-}
-
-img {
-    width: 100%;
-    outline: none;
-}
-
-a, a:active, a:focus {
-    outline: none;
-}
-
-header {
-    text-align: center;
+section>header {
     text-transform: capitalize;
-    font-size: 24pt;
-}
-
-h1 {
-    font-weight: 900;
 }
 
 footer {
