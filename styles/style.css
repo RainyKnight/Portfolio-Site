@@ -9,11 +9,21 @@
     /*  */
 }
 
+.navbar {}
+
 main {
     margin-top: 56px;
 }
 
-section {}
+.main-section {
+    background-color: red;
+    margin: 1rem;
+}
+
+.project-img {
+    display: none;
+    max-width: 500px;
+}
 
 section>header {
     text-transform: capitalize;
