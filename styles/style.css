@@ -2,6 +2,7 @@
     /* Color Palette*/
     --white: white;
     --black: black;
+    --debug: red;
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
@@ -9,19 +10,24 @@
     /*  */
 }
 
-.navbar {}
-
+#welcome-section {
+    height: 100vh;
+    background-color: var(--debug);
+}
 main {
     margin-top: 56px;
 }
 
 .main-section {
-    background-color: red;
+    /* background-color: var(--debug); */
     margin: 1rem;
 }
 
+.project-wrapper {}
+
+.project-tile {}
+
 .project-img {
-    display: none;
     max-width: 500px;
 }
 
