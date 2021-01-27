@@ -47,6 +47,11 @@ main {
 
 section>header {
     text-transform: capitalize;
+    text-align: center;
+    font-size: 24pt;
+    color: var(--white);
+    padding: 1rem;
+    background-color: var(--codepen);
 }
 
 footer {
