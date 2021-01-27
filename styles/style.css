@@ -3,6 +3,7 @@
     --white: white;
     --black: black;
     --debug: red;
+    --codepen: #1F2229;
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
@@ -10,10 +11,11 @@
     /*  */
 }
 
-#welcome-section {
+#welcome {
     height: 100vh;
     background-color: var(--debug);
 }
+
 main {
     margin-top: 56px;
 }
@@ -23,11 +25,23 @@ main {
     margin: 1rem;
 }
 
-.project-wrapper {}
+.project-wrapper {
+    /* background-color: var(--debug); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-.project-tile {}
+.project-tile {
+    display: flex;
+    background-color: var(--codepen);
+    border-radius: var(--default-radius);
+    margin: 1rem;
+    padding: 1rem;
+}
 
 .project-img {
+    border-radius: var(--default-radius);
     max-width: 500px;
 }
 
