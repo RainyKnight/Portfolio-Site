@@ -54,6 +54,13 @@ section>header {
     background-color: var(--codepen);
 }
 
+#profile-pic {
+    align-self: center;
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: var(--default-shadow);
+}
+
 footer {
     text-align: center;
 }
