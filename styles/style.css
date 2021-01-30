@@ -35,6 +35,11 @@ main {
     margin: 1rem;
 }
 
+.columns-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .project-wrapper {
     /* background-color: var(--debug); */
     display: flex;
