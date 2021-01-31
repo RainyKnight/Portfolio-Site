@@ -25,6 +25,10 @@ main {
 }
 
 .center {
+    text-align: center;
+}
+
+.center-full {
     display: grid;
     display: grid;
     justify-content: center;
@@ -33,7 +37,11 @@ main {
 
 .main-section {
     /* background-color: var(--debug); */
-    /* margin: 1rem; */
+}
+
+.content {
+    /* background-color: red; */
+    padding: 1rem;
 }
 
 .columns-wrapper {
