@@ -23,6 +23,7 @@ h1 {
 main {
     margin-top: 56px;
 }
+
 .center {
     display: grid;
     display: grid;
@@ -38,6 +39,10 @@ main {
 .columns-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.column {
+    padding: 1rem;
 }
 
 .project-wrapper {
@@ -73,6 +78,12 @@ section>header {
     /* align-self: center; */
     border-radius: 50%;
     box-shadow: var(--default-shadow);
+}
+
+@media (max-width: 768px) {
+    .columns-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
 footer {
