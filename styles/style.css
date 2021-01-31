@@ -3,7 +3,12 @@
     --white: white;
     --black: black;
     --debug: red;
+    --facebook: #4267B2;
+    --linkedin: #2867B2;
     --codepen: #1F2229;
+    --twitter: #1DA1F2;
+    --github: #bd2c00;
+    --discord: #7289DA;
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
@@ -94,3 +99,34 @@ section>header {
     }
 }
 
+i {
+    font-size: 36pt;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
+#twitter>i {
+    color: var(--twitter);
+}
+
+#facebook>i {
+    color: var(--facebook);
+}
+
+#profile-link>i {
+    color: var(--github);
+}
+
+#discord>i {
+    color: var(--discord);
+}
+
+#codepen>i {
+    color: var(--codepen);
+}
+
+#twitter>i {
+    color: var(--twitter);
+}
