@@ -32,7 +32,7 @@ main {
 
 .main-section {
     /* background-color: var(--debug); */
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 .columns-wrapper {
@@ -70,8 +70,7 @@ section>header {
 }
 
 #profile-pic {
-    align-self: center;
-    max-width: 300px;
+    /* align-self: center; */
     border-radius: 50%;
     box-shadow: var(--default-shadow);
 }
