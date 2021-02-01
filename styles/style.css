@@ -13,7 +13,7 @@
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
-    --default-radius: 10px;
+    --default-radius: 20px;
     /*  */
 }
 
@@ -59,24 +59,18 @@ main {
     padding: 1rem;
 }
 
-.project-wrapper {
-    /* background-color: var(--debug); */
+.project-layout {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-}
-
-.project-tile {
-    display: flex;
-    background-color: var(--codepen);
-    border-radius: var(--default-radius);
+    grid-template-columns: auto auto auto;
+    justify-content: center;
     margin: 1rem;
-    padding: 1rem;
+    gap: 1rem;
 }
 
-.project-img {
+.card {
+    width: 18rem;
     border-radius: var(--default-radius);
-    max-width: 500px;
 }
 
 section>header {
