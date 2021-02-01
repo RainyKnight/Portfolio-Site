@@ -57,10 +57,6 @@ main {
     align-content: center;
 }
 
-.main-section {
-    /* background-color: var(--debug); */
-}
-
 .content {
     /* background-color: red; */
     padding: 1rem;
