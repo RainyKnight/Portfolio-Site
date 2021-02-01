@@ -18,6 +18,15 @@
     /*  */
 }
 
+/* Custom anchor class to adjust links with a fixed navbar */
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -56px;
+    visibility: hidden;
+}
+
 #welcome-section {
     height: 100vh;
     /* background-color: var(--black); */
