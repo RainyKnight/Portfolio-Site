@@ -13,7 +13,7 @@
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
-    --default-radius: 20px;
+    --default-radius: 0.5rem;
     /*  */
 }
 
@@ -77,6 +77,30 @@ main {
 .card {
     width: 18rem;
     border-radius: var(--default-radius);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: var(--default-radius);
+    border-top-right-radius: var(--default-radius);
+}
+
+.card-anchor {
+    text-decoration: none;
+}
+
+.card-body {
+    text-align: center;
+    background-color: var(--codepen);
+    border-bottom-left-radius: var(--default-radius);
+    border-bottom-right-radius: var(--default-radius);
+}
+
+.card-text {
+    color: var(--white);
 }
 
 section>header {
