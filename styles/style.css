@@ -14,6 +14,7 @@
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
     --default-radius: 0.5rem;
+    --card-radius: 0.6rem;
     /*  */
 }
 
@@ -76,7 +77,9 @@ main {
 
 .card {
     width: 18rem;
-    border-radius: var(--default-radius);
+    border-color: var(--black);
+    border-radius: var(--card-radius);
+    box-shadow: var(--default-shadow);
 }
 
 .card:hover {
