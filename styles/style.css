@@ -46,6 +46,10 @@ main {
     margin-top: 56px;
 }
 
+.container {
+    padding: 0px;
+}
+
 .center {
     text-align: center;
 }
