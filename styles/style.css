@@ -14,7 +14,7 @@
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
     --default-radius: 0.5rem;
-    --card-radius: 0.6rem;
+    --card-radius: 0.7rem;
     /*  */
 }
 
@@ -83,6 +83,7 @@ main {
 .card {
     width: 18rem;
     border-color: var(--black);
+    border-width: 2px;
     border-radius: var(--card-radius);
     box-shadow: var(--default-shadow);
 }
