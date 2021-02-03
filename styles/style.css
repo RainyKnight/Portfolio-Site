@@ -42,12 +42,20 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+#navbar {
+    background-color: var(--black);
+}
+
+#navbar-container {
+    padding: 0 1rem 0 1rem;
+}
+
 main {
     margin-top: 56px;
 }
 
 .container {
-    padding: 0px;
+    padding: 0;
 }
 
 .center {
