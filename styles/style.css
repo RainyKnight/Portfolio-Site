@@ -45,6 +45,13 @@ img {
 
 h1 {
     font-family: 'Lobster', cursive;
+    transition: transform 1s ease-out
+}
+
+/* welcome button grow */
+
+h1:hover {
+    transform: scale(2);
 }
 
 #navbar {
