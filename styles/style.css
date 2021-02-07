@@ -144,12 +144,21 @@ section>header {
     color: var(--white);
     padding: 1rem;
     background-color: var(--dark);
+    border-radius: var(--default-radius);
 }
 
 #profile-pic {
     /* align-self: center; */
     border-radius: 50%;
     box-shadow: var(--default-shadow);
+}
+
+/* sharpen corners for mobile */
+
+@media (max-width: 575px) {
+    section>header {
+        border-radius: unset;
+    }
 }
 
 @media (max-width: 768px) {
