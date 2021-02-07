@@ -23,7 +23,7 @@
 a.anchor {
     display: block;
     position: relative;
-    top: -56px;
+    top: -55px;
     visibility: hidden;
 }
 
@@ -153,6 +153,8 @@ i {
 i:hover {
     transform: scale(1.3);
 }
+
+/* colors for all the social media handles */
 
 #twitter>i {
     color: var(--twitter);
