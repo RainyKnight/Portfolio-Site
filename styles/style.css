@@ -147,6 +147,18 @@ section>header {
     border-radius: var(--default-radius);
 }
 
+header>button {
+    position: relative;
+    float: left;
+    margin: -0.5rem;
+}
+
+/* remove active border around clicked buttons */
+
+.btn:focus {
+    display: none;
+}
+
 #profile-pic {
     /* align-self: center; */
     border-radius: 50%;
